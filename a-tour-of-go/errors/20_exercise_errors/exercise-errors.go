@@ -5,6 +5,7 @@ import "fmt"
 type ErrNegativeSqrt float64
 
 func (e ErrNegativeSqrt) Error() string {
+	// return fmt.Sprintf("cannot Sqrt negative number: %v", e) //  this line falls into infinite loop. why?
 	return fmt.Sprintf("cannot Sqrt negative number: %v", float64(e))
 }
 
