@@ -5,10 +5,11 @@
 - methods
   - [Errors](https://go.dev/tour/methods/19) 
   - [Exercise: Errors](https://go.dev/tour/methods/20)
+  - [Exercise: rot13Reader](https://go.dev/tour/methods/23)
 - generics
   - [Exercise: List implementation](https://go.dev/tour/generics/2)
 ## Builtins
-- atoi
+- [atoi](https://cs.opensource.google/go/go/+/master:src/strconv/atoi.go;l=231?q=Atoi&sq=&ss=go%2Fgo)
 
 ## Readings
 - [string interning in go](https://artem.krylysov.com/blog/2018/12/12/string-interning-in-go/)

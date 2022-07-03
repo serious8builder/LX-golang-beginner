@@ -3,6 +3,7 @@
 - `strings.NewReader` 에 간단하게 스트링을 넣어서 `io.Reader` 인터페이스를 사용해볼 수 있었다.
 - byte slice? 를 `%q` 로 포매팅하면 아스키 문자를 보여준다.
 - `fmt.Fprintf(os.Stderr, "%v", i)`
+- rot13Reader
 - List implementation
 
 ### Questions
