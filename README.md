@@ -13,6 +13,8 @@
 
 ## Readings
 - [string interning in go](https://artem.krylysov.com/blog/2018/12/12/string-interning-in-go/)
+### goroutine
+- [anatomy-of-channels-in-go](https://medium.com/rungo/anatomy-of-channels-in-go-concurrency-in-go-1ec336086adb)
 
 ## References
 - Project structure

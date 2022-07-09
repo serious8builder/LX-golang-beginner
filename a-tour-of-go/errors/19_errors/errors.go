@@ -11,7 +11,7 @@ type MyError struct {
 }
 
 func (e *MyError) Error() string {
-	return fmt.Sprintf("[%v] %s", e.When, e.What)
+	return fmt.Sprintf("[%v] %s", e.When.Format("2006-01-02 15:04:05.123"), e.What)
 }
 
 func run() error {
