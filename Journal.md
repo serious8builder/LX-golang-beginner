@@ -5,6 +5,9 @@
 - `fmt.Fprintf(os.Stderr, "%v", i)`
 - rot13Reader
 - List implementation
+- bufio
+- slice 생성 방법
+- godoc 문서화
 
 ### Questions
 - 왜 Error 인터페이스를 구현한 타입의 데이터를 `fmt.Sprint` 안에서 호출하면 무한 루프가 발생하는가?
